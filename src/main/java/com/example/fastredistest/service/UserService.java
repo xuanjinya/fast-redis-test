@@ -1,4 +1,4 @@
-package com.example.fastredistest.Service;
+package com.example.fastredistest.service;
 
 import com.example.fastredistest.entity.User;
 import org.springframework.cache.annotation.Cacheable;
