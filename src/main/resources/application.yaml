@@ -1,0 +1,10 @@
+fastdep:
+  shiro-jwt:
+    filter: #shiro过滤规则
+      admin:
+        path: /admin/**
+        role: jwt # jwt为需要进行token校验
+      front:
+        path: /front/**/**
+        role: anon # anon为无需校验
+    secret: "6Dx8SIuaHXJYnpsG18SSpjPs50lZcT52" # jwt秘钥
